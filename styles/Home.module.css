@@ -6,6 +6,9 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background: #ccc;
+  width: 80%;
+  margin: auto;
 }
 
 .main {
