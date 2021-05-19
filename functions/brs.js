@@ -14,8 +14,8 @@ exports.handler = async (id, fn) => {
       }
     );
     console.log(user);
-    return { user: JSON.stringify(user) };
+    return { status: 200, body: JSON.stringify(user) };
   } catch (error) {
-    console.log("brs err", error.message);
+    return { status: 201, body: error.message };
   }
 };
