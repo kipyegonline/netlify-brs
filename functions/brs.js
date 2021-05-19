@@ -1,3 +1,4 @@
+import axios from "axios";
 exports.handler = async (id, fn) => {
   console.log("Netlify funct");
   try {
