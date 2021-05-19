@@ -1,6 +1,6 @@
-import axios from "axios";
+const axios = require("axios");
 exports.handler = async (id, fn) => {
-  console.log("Netlify funct");
+  console.log("Netlify function");
   try {
     const user = await axios.get(
       `https://brs.ecitizen.go.ke/backend/id-lookup?id_number=${29216950}&citizenship=citizen&first_name=Kipyegon}`,
